@@ -23,9 +23,9 @@ const items = ref([
     icon: 'i-lucide-house'
   },
   {
-    label: 'Blog',
+    label: 'Projekte',
     description: 'Hier ist der Blog',
-    to: '/blog',
+    to: '/projects',
     icon: 'i-catppuccin:folder'
   },
   {
