@@ -26,13 +26,13 @@ const items = ref([
     label: 'Projekte',
     description: 'Hier ist der Blog',
     to: '/projects',
-    icon: 'i-catppuccin:folder'
+    icon: 'i-carbon:align-box-top-center'
   },
   {
     label: 'Statistiken',
     description: 'Hier sind die Statistiken',
     to: '/charts',
-    icon: 'i-catppuccin:folder'
+    icon: 'i-carbon:chart-average'
   },
   {
     label: 'GitHub',
