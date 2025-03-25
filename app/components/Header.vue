@@ -29,6 +29,12 @@ const items = ref([
     icon: 'i-catppuccin:folder'
   },
   {
+    label: 'Statistiken',
+    description: 'Hier sind die Statistiken',
+    to: '/charts',
+    icon: 'i-catppuccin:folder'
+  },
+  {
     label: 'GitHub',
     icon: 'i-simple-icons-github',
     to: 'https://github.com/selinafehn',
