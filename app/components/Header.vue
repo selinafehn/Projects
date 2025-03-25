@@ -1,5 +1,5 @@
 <template>
-  <div class="flex items-center justify-between px-4 py-2 bg-white dark:bg-gray-800">
+  <div class="flex items-center justify-between px-4 py-2 border-b-indigo-500">
     <div class="flex-shrink-0">
       <ColorModeButton />
     </div>

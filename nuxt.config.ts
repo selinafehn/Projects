@@ -6,12 +6,6 @@ export default defineNuxtConfig({
   },
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
-  ui: {
-    colors: {
-      primary: 'blue',
-      neutral: 'zinc'
-    }
-  },
   i18n: {
     locales: [
       { code: 'de', iso: 'de-DE', file: 'de.json' },
