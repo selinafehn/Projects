@@ -29,9 +29,15 @@ const items = ref([
     icon: 'i-carbon:align-box-top-center'
   },
   {
-    label: 'Statistiken',
+    label: 'Charts.js',
     description: 'Hier sind die Statistiken',
     to: '/charts',
+    icon: 'i-carbon:chart-average'
+  },
+  {
+    label: 'Mermaid Charts',
+    description: 'Hier sind ein Paar Charts',
+    to: '/mermaid',
     icon: 'i-carbon:chart-average'
   },
   {

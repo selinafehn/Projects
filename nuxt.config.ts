@@ -4,6 +4,9 @@ export default defineNuxtConfig({
   future: {
     compatibilityVersion: 4,
   },
+  plugins: [
+    { src: './app/plugins/mermaid.client.ts', mode: 'client' }
+  ],
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   i18n: {

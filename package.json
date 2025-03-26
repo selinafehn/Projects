@@ -13,6 +13,7 @@
     "@cubejs-client/core": "^1.2.26",
     "@nuxtjs/i18n": "^9.3.4",
     "chart.js": "^4.4.8",
+    "mermaid": "^11.6.0",
     "nuxt": "3.16.0",
     "vue": "^3.5.13",
     "vue-router": "^4.5.0"
