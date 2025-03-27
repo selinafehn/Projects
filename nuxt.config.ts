@@ -5,14 +5,14 @@ export default defineNuxtConfig({
     compatibilityVersion: 4,
   },
   plugins: [
-    { src: './app/plugins/mermaid.client.ts', mode: 'client' }
+    {src: './app/plugins/mermaid.client.ts', mode: 'client'}
   ],
-  devtools: { enabled: true },
+  devtools: {enabled: true},
   css: ['~/assets/css/main.css'],
   i18n: {
     locales: [
-      { code: 'de', iso: 'de-DE', file: 'de.json' },
-      { code: 'en', iso: 'en-US', file: 'en.json' }
+      {code: 'de', iso: 'de-DE', file: 'de.json'},
+      {code: 'en', iso: 'en-US', file: 'en.json'}
     ],
     defaultLocale: 'de',
     strategy: 'prefix_except_default',

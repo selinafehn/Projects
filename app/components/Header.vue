@@ -35,6 +35,12 @@ const items = ref([
     icon: 'i-carbon:chart-average'
   },
   {
+    label: 'Vue-Chrts',
+    description: 'Hier sind die Statistiken',
+    to: '/vue-chrts',
+    icon: 'i-carbon:chart-average'
+  },
+  {
     label: 'Mermaid Charts',
     description: 'Hier sind ein Paar Charts',
     to: '/mermaid',
