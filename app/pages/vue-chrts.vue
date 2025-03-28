@@ -74,14 +74,13 @@ const DonutData = [
   <div class="min-h-screen bg-gradient-to-b from-white via-gray-50 to-gray-100 dark:from-gray-900 dark:via-gray-800 dark:to-gray-900 py-10 px-6">
     <div class="max-w-screen-xl mx-auto">
       <div class="mb-8">
-        <h1 class="text-3xl font-bold text-gray-800 dark:text-white mb-2">📊 Dashboard Übersicht</h1>
+        <h1 class="text-3xl font-bold text-gray-800 dark:text-white mb-2">vue-chrts</h1>
       </div>
 
       <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
         <Card class="p-6 bg-white dark:bg-gray-900 shadow-xl rounded-xl hover:shadow-2xl transition duration-300 border border-gray-200 dark:border-gray-700">
           <div class="mb-4">
-            <h2 class="text-lg font-semibold text-gray-800 dark:text-white">📈 Besucher (Monate)</h2>
-            <p class="text-sm text-gray-500">Desktop vs Mobile</p>
+            <h2 class="text-lg font-semibold text-gray-800 dark:text-white">LineChart</h2>
           </div>
           <LineChart
           :data="chartData"
@@ -100,7 +99,7 @@ const DonutData = [
         <!-- Donut Chart Card -->
         <Card class="p-6 bg-white dark:bg-gray-900 shadow-xl rounded-xl hover:shadow-2xl transition duration-300 border border-gray-200 dark:border-gray-700 relative">
           <div class="mb-4">
-            <h2 class="text-lg font-semibold text-gray-800 dark:text-white"> Anteile (Live)</h2>
+            <h2 class="text-lg font-semibold text-gray-800 dark:text-white"> DonutChart</h2>
           </div>
           <DonutChart
               :data="DonutData.map((i) => i.value)"
@@ -116,7 +115,7 @@ const DonutData = [
         <!-- Area Chart Card -->
         <Card class="p-6 bg-white dark:bg-gray-900 shadow-xl rounded-xl hover:shadow-2xl transition duration-300 border border-gray-200 dark:border-gray-700">
           <div class="mb-4">
-            <h2 class="text-lg font-semibold text-gray-800 dark:text-white">📊 Verlauf (Woche)</h2>
+            <h2 class="text-lg font-semibold text-gray-800 dark:text-white">AreaChart</h2>
           </div>
           <AreaChart
               :data="AreaChartData"
@@ -132,4 +131,3 @@ const DonutData = [
     </div>
   </div>
 </template>
-
